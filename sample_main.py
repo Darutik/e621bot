@@ -21,7 +21,7 @@ bot = TeleBot(
 		'sakuga': BooruCommand(ESource('https://sakuga.yshi.org')),
 		'fbooru': BooruCommand(GelbooruSource('http://furry.booru.org/')),
 		'sbooru': BooruCommand(GelbooruSource('http://safebooru.org/')),
-		'ping': StaticCommand(['Rawr~', 'Meow!', 'Woof woof!', 'Murr~', 'o///o', '*poke*', 'Se... senpai!']),
+		'ping': StaticCommand(['Rawr~', 'Meow!', 'Woof woof!', 'Murr~', 'o///o', 'pong' '*poke*', 'Se... senpai!']),
 		'about': StaticCommand('e621bot by @socram8888.\n\nFull source code available at [GitHub](https://github.com/socram8888/e621bot/).'),
 		'e621botserver': StaticCommand('Bot is running at %s' % socket.getfqdn())
 	}
